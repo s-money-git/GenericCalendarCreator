@@ -49,12 +49,19 @@ YAML
            description: Event Description
            
 months_to_print: A list of months to include in the calendar, in YYYY-MM format.
+
 events: A dictionary containing single_events and recurring_events.
+
 single_events: A list of dictionaries, each with a date (YYYY-MM-DD) and a description.
+
 recurring_events: A list of dictionaries, each with:
+
 recurrence: The recurrence interval (nW, nM, or nY, where n is a number).
+
 start_date: The start date (YYYY-MM-DD).
+
 description: The event description.
+
 end_date: (Optional) An end date (YYYY-MM-DD). If omitted, the event recurs indefinitely.
 
 ## Run the Script:
