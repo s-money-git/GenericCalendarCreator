@@ -21,7 +21,7 @@ Create a YAML file (e.g., config.yaml) to specify the months to print and any ev
 
 Bash
 > python calendar_generator.py --template
-> This will create a template_config.yaml file that you can modify.  The config file has the following structure:
+This will create a template_config.yaml file that you can modify.  The config file has the following structure:
 
 YAML
 > months_to_print:
@@ -87,5 +87,7 @@ The script will generate a PDF file.
 >  - recurrence: 1m
 >    start_date: '2025-01-15'
 >    description: Monthly Report Due
+
+
 
 <img width="970" alt="image" src="https://github.com/user-attachments/assets/45d7fcf7-1d51-42ef-87b2-57f9d93de282" />
